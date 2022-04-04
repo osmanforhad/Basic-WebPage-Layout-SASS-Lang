@@ -132,4 +132,12 @@ body {
   text-decoration: none;
   color: #333;
 }
+
+.main .footer {
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: cadetblue;
+}
 /*# sourceMappingURL=style.css.map */
