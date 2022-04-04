@@ -81,4 +81,55 @@ body {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+.main .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .about .about-left {
+  -ms-flex-preferred-size: 790px;
+      flex-basis: 790px;
+}
+
+.main .about .about-left h4 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.main .about .about-left a {
+  display: inline-block;
+  background-color: cadetblue;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.main .about .about-menu {
+  -ms-flex-preferred-size: 115px;
+      flex-basis: 115px;
+}
+
+.main .about .about-menu ul {
+  list-style: none;
+}
+
+.main .about .about-menu ul li {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.main .about .about-menu ul li a {
+  text-decoration: none;
+  color: #333;
+}
 /*# sourceMappingURL=style.css.map */
