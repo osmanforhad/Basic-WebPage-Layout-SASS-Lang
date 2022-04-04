@@ -12,11 +12,19 @@ body{
     border: 1px solid #ddd;
     padding: 20px;
     .menu{
+        background-color: beige;
         ul{
+            display: flex;
             li{
+                list-style-type: none;
                 a{
+                    padding: 10px 20px;
+                    display: block;
+                    text-decoration: none;
+                    color: cadetblue;
                     &:hover{
-
+                        background-color: darkgray;
+                        color: burlywood;
                     }
                 }
             }
