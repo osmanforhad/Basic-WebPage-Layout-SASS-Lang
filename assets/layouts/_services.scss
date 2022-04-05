@@ -1,0 +1,34 @@
+.services {
+    display: flex;
+    padding: 25px 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    .single-service {
+      flex-basis: 450px;
+      background-color: #fafafa;
+      padding: 20px;
+      border: 1px solid $border_color;
+      margin: 10px;
+      h4 {
+        font-size: 24px;
+        font-family: $heading_font;
+        margin-bottom: 10px;
+        color: $heading_color;
+      }
+      p {
+      }
+      a {
+        display: inline-block;
+        background-color: $button_background;
+        color: #fff;
+        padding: 10px 20px;
+        margin-top: 20px;
+        text-decoration: navajowhite;
+        text-transform: capitalize;
+        &:hover {
+          background-color: $button_hover;
+        }
+      }
+    }
+  }

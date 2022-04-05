@@ -35,9 +35,6 @@ img {
   vertical-align: middle;
 }
 
-/**
-  *SCSS Style Structure
-  */
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
