@@ -20,38 +20,55 @@ body {
 */
 .main {
   width: 1000px;
-  margin: 100px auto;
-  border: 1px solid #ddd;
-  padding: 20px;
+  margin: 0 auto;
 }
 
-.main .menu {
-  background-color: beige;
-}
-
-.main .menu ul {
+.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
 }
 
-.main .menu ul li {
-  list-style-type: none;
+.header .menu {
+  background-color: beige;
 }
 
-.main .menu ul li a {
+.header .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.header .menu ul li {
+  margin-left: 80px;
+}
+
+.header .menu ul li a {
   padding: 10px 20px;
   display: block;
   text-decoration: none;
   color: cadetblue;
 }
 
-.main .menu ul li a:hover {
+.header .menu ul li a:hover {
   background-color: darkgray;
   color: burlywood;
 }
 
-.main .services {
+.banner img {
+  width: 100%;
+  height: 350px;
+}
+
+.services {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,36 +84,38 @@ body {
           justify-content: space-between;
 }
 
-.main .services .single-service {
-  -ms-flex-preferred-size: 300px;
-      flex-basis: 300px;
+.services .single-service {
+  -ms-flex-preferred-size: 450px;
+      flex-basis: 450px;
   background-color: #fafafa;
   padding: 20px;
   border: 1px solid #ddd;
+  margin: 10px;
 }
 
-.main .services .single-service h4 {
-  font-size: 20px;
+.services .single-service h4 {
+  font-size: 24px;
   font-family: "Berlin Sans FB";
   margin-bottom: 10px;
   color: #a84e4e;
 }
 
-.main .services .single-service a {
+.services .single-service a {
   display: inline-block;
   background-color: cadetblue;
   color: #fff;
   padding: 10px 20px;
   margin-top: 20px;
-  text-decoration: none;
+  -webkit-text-decoration: navajowhite;
+          text-decoration: navajowhite;
   text-transform: capitalize;
 }
 
-.main .services .single-service a:hover {
+.services .single-service a:hover {
   background-color: #b07a5c;
 }
 
-.main .about {
+.about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,21 +124,22 @@ body {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 10px;
 }
 
-.main .about .about-left {
+.about .about-left {
   -ms-flex-preferred-size: 790px;
       flex-basis: 790px;
 }
 
-.main .about .about-left h4 {
+.about .about-left h4 {
   color: #a84e4e;
   font-family: "Berlin Sans FB";
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-.main .about .about-left a {
+.about .about-left a {
   display: inline-block;
   background-color: cadetblue;
   padding: 10px 20px;
@@ -129,34 +149,37 @@ body {
   margin-top: 20px;
 }
 
-.main .about .about-left a:hover {
+.about .about-left a:hover {
   background-color: #b07a5c;
 }
 
-.main .about .about-menu {
-  -ms-flex-preferred-size: 115px;
-      flex-basis: 115px;
+.about .about-menu {
+  -ms-flex-preferred-size: 150px;
+      flex-basis: 150px;
 }
 
-.main .about .about-menu ul {
+.about .about-menu ul {
   list-style: none;
 }
 
-.main .about .about-menu ul li {
+.about .about-menu ul li {
   margin-bottom: 5px;
   padding-bottom: 5px;
 }
 
-.main .about .about-menu ul li a {
+.about .about-menu ul li a {
   text-decoration: none;
   color: #333;
 }
 
-.main .footer {
+.footer {
+  margin-top: 20px;
+}
+
+.footer p {
   background-color: beige;
   padding: 20px;
   text-align: center;
-  margin-top: 20px;
   color: cadetblue;
 }
 /*# sourceMappingURL=style.css.map */
