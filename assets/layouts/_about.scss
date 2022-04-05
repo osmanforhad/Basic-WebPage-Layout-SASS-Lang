@@ -5,23 +5,16 @@
     margin: 10px;
     .about-left {
       flex-basis: 790px;
+      padding: 20px;
+      @include border($border_color, dashed, 5px, 20px);
       h4 {
-        color: $heading_color;
-        font-family: $heading_font;
-        font-size: 24px;
-        margin-bottom: 20px;
+        @include title;
       }
   
       p {
       }
       a {
-        display: inline-block;
-        background-color: $button_background;
-        padding: 10px 20px;
-        text-decoration: none;
-        color: #fff;
-        text-transform: capitalize;
-        margin-top: 20px;
+        @include btn;
         &:hover {
           background-color: $button_hover;
         }
