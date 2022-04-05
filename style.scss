@@ -1,31 +1,11 @@
 /**
-*Setup Common Style
+*Import the Partial Style Files
 */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-/**
-*SASS or SCSS Style Through Variable
-*/
-$header_footer_color: beige;
-$heading_color: rgb(168, 78, 78);
-$heading_font: "Berlin Sans FB";
-$button_background: cadetblue;
-$button_hover: rgb(176, 122, 92);
-$border_color: #ddd;
+@import "./assets/common/base";
 
 /**
-*SCSS Style Structure
-*/
-.main {
-  width: 1000px;
-  margin: 0 auto;
-}
+  *SCSS Style Structure
+  */
 .header {
   display: flex;
   justify-content: space-between;
@@ -34,10 +14,9 @@ $border_color: #ddd;
   .menu {
     background-color: $header_footer_color;
     ul {
-      display: flex;
       list-style: none;
+      display: flex;
       li {
-          margin-left: 80px;
         a {
           padding: 10px 20px;
           display: block;

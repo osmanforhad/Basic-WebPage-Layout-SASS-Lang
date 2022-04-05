@@ -1,4 +1,10 @@
 /**
+*Import the Partial Style Files
+*/
+/**
+  *SASS or SCSS Style Through Variable
+  */
+/**
 *Setup Common Style
 */
 * {
@@ -12,17 +18,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/**
-*SASS or SCSS Style Through Variable
-*/
-/**
-*SCSS Style Structure
-*/
 .main {
   width: 1000px;
   margin: 0 auto;
 }
 
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/**
+  *SCSS Style Structure
+  */
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,14 +56,10 @@ body {
 }
 
 .header .menu ul {
+  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none;
-}
-
-.header .menu ul li {
-  margin-left: 80px;
 }
 
 .header .menu ul li a {
